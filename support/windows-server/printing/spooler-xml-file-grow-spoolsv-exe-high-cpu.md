@@ -32,7 +32,7 @@ You can work around this problem by disabling Windows Error Reporting for the pr
 
     `HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Print\`.
 
-3. Add a REG_DWORD value named DisableWERLogging and set this value to 0x1 (hexadecimal).
+3. Add a REG_DWORD value named DisableWERLogging and set this value to 1 (decimal).
 
 4. Restart the Print Spooler service.
 
